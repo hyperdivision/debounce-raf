@@ -1,0 +1,31 @@
+{
+  "name": "debounce-raf",
+  "version": "0.0.0",
+  "description": "Debounce function until next requestAnimationFrame. Auto cancel all extraneous calls between frames",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "standard": "^12.0.1",
+    "tape": "^4.9.2",
+    "tape-run": "^5.0.0"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "browserify test.js | tape-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperdivision/debounce-raf.git"
+  },
+  "keywords": [],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperdivision/debounce-raf/issues"
+  },
+  "homepage": "https://github.com/hyperdivision/debounce-raf#readme"
+}
