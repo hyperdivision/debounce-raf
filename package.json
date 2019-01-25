@@ -1,6 +1,6 @@
 {
   "name": "debounce-raf",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Debounce function until next requestAnimationFrame. Auto cancel all extraneous calls between frames",
   "main": "index.js",
   "publishConfig": {
