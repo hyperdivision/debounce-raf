@@ -7,6 +7,6 @@ module.exports = function (fn) {
   return function (...args) {
     if (queued) cancelAnimationFrame(queued)
 
-    queued = requestAnimationFrame(fn.bind(fn, args))
+    queued = requestAnimationFrame(fn.bind(fn, ...args))
   }
 }
